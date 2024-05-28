@@ -6,6 +6,20 @@ This repository contains the implementation and evaluation of a translation mode
 
 Translation models for medium-resource languages like Kazakh currently underperform, making the exploration of new methodologies crucial. This project utilizes the Suzume 8B model, applying the rank-stabilized LoRA fine-tuning technique to enhance its performance in translation. The project uses the SFT method of training in the Kazakh-Russian language pair.
 
+## Metrics
+| **Model**                                                                                                     | **Metric** | **KazParC** | **FLoRes** |
+|---------------------------------------------------------------------------------------------------------------|------------|-------------|------------|
+| [**Tilmash**](https://huggingface.co/issai/tilmash)                                                         | BLEU       | 0.29        | 0.18       |
+|                                                                                                               | CHRF       | 0.63        | 0.52       |
+| [**Finetuned Suzume**](https://huggingface.co/Kovalev/Suzume_kazparc)                                       | BLEU       | 0.86        | 0.03       |
+|                                                                                                               | CHRF       | 0.97        | 0.07       |
+| [**Finetuned M2M100**](https://huggingface.co/Kovalev/m2m_100_kazparc)                                       | BLEU       | 0.37        | 0.17       |
+|                                                                                                               | CHRF       | 0.63        | 0.47       |
+| [**Finetuned Aya23_8B**](https://huggingface.co/Kovalev/aya23_8B_kazparc)                                   | BLEU       | 0.19       | 0.19      |
+|                                                                                                               | CHRF       | 0.49        | 0.47       |
+
+
+
 ## Project Structure
 
 The project consists of the following files:
