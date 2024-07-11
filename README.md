@@ -11,8 +11,6 @@ Translation models for medium-resource languages like Kazakh currently underperf
 |---------------------------------------------------------------------------------------------------------------|------------|-------------|------------|
 | [**Tilmash**](https://huggingface.co/issai/tilmash)                                                         | BLEU       | 0.29        | 0.18       |
 |                                                                                                               | CHRF       | 0.63        | 0.52       |
-| [**Finetuned Suzume**](https://huggingface.co/Kovalev/Suzume_kazparc)                                       | BLEU       | 0.86        | 0.03       |
-|                                                                                                               | CHRF       | 0.97        | 0.07       |
 | [**Finetuned M2M100**](https://huggingface.co/Kovalev/m2m_100_kazparc)                                       | BLEU       | 0.37        | 0.17       |
 |                                                                                                               | CHRF       | 0.63        | 0.47       |
 | [**Finetuned Aya23_8B**](https://huggingface.co/Kovalev/aya23_8B_kazparc)                                   | BLEU       | 0.19       | 0.19      |
